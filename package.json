@@ -1,11 +1,23 @@
 {
   "name": "dubbing-tts",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "main": "lib/index.ts",
+  "files": [
+    "lib"
+  ],
+  "typings": [
+    "lib/index.d.ts"
+  ],
   "packageManager": "yarn@4.0.2",
   "license": "AGPL-3.0",
-  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/BERADQ/dubbing-tss.git"
+  },
+  "scripts": {
+    "build": "tsc src/*.ts --declaration --outDir ./lib"
   }
 }
