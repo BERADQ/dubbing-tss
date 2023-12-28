@@ -1,0 +1,11 @@
+{
+  "name": "dubbing-tts",
+  "version": "0.0.1",
+  "packageManager": "yarn@4.0.2",
+  "license": "AGPL-3.0",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BERADQ/koishi-plugin-su-deprecated-customize-frame.git"
+  }
+}
