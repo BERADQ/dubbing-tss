@@ -31,7 +31,7 @@ export class DubbingClient {
 
 export class DubbingTask {
   id: number;
-  key: KeyClusters;
+  private key: KeyClusters;
   constructor(id: number, key_clusters: KeyClusters) {
     this.id = id;
     this.key = key_clusters;
